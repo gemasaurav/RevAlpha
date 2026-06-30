@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DevAlpha Script Converter</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="mapping.js"></script>
+<script src="script.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>DevAlpha Script Converter</h1>
+
+<p>Enter text below:</p>
+
+<textarea id="inputText" placeholder="Type English or SOSAU text here..."></textarea>
+
+<div class="buttons">
+<button class="convert" onclick="convertText()">Convert</button>
+<button class="clear" onclick="clearText()">Clear</button>
+</div>
+
+<p>Converted Text:</p>
+
+<textarea id="outputText" readonly></textarea>
+
+<h2>Letter Mapping</h2>
+
+<table>
+
+<tr><th>English</th><th>SOSAU</th></tr>
+
+<tr><td>A ↔ Z</td><td>H ↔ S</td></tr>
+<tr><td>B ↔ Y</td><td>I ↔ R</td></tr>
+<tr><td>C ↔ X</td><td>J ↔ Q</td></tr>
+<tr><td>D ↔ W</td><td>K ↔ P</td></tr>
+<tr><td>E ↔ V</td><td>L ↔ O</td></tr>
+<tr><td>F ↔ U</td><td>M ↔ N</td></tr>
+<tr><td>G ↔ T</td><td></td></tr>
+
+</table>
+
+<br>
+
+<h2>Number Mapping</h2>
+
+<table>
+
+<tr><th>Number</th><th>Symbol</th></tr>
+
+<tr><td>0</td><td>.</td></tr>
+<tr><td>1</td><td>!</td></tr>
+<tr><td>2</td><td>^</td></tr>
+<tr><td>3</td><td>%</td></tr>
+<tr><td>4</td><td>#</td></tr>
+<tr><td>5</td><td>&amp;</td></tr>
+<tr><td>6</td><td>@</td></tr>
+<tr><td>7</td><td>?</td></tr>
+<tr><td>8</td><td>*</td></tr>
+<tr><td>9</td><td>$</td></tr>
+
+</table>
+
+</div>
+
+</body>
+</html>
 
